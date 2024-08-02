@@ -6,7 +6,8 @@
 2. [Requirements Gathering](#requirements-gathering)
 3. [Architecture Design](#architecture-design)
 4. [Low-Level Design](#low-level-design)
-5. [SOLID Principles](#solid-principles)
+5. [high-level Design](#high-level-design)
+6. [SOLID Principles](#solid-principles)
 
 ## Introduction
 
@@ -29,7 +30,11 @@ Describe the high-level architecture of the system. Include diagrams and explana
 
 ## Low-Level Design
 
-Low-level design is a component-level design process that follows a step-by-step refinement process. This section should detail the specific components, their responsibilities, and how they interact at a granular level.
+Low-level design is a component-level design process that follows a step-by-step refinement process. This section should detail the specific components, their responsibilities, and how they interact at a granular level. about the internal design of the individual modules identified during the hld phase. includes the detailed specifications of the code level, including algorithms, interface designs, procedural details and complete data models. encompasses the nitty gritty details that developers need to follow while coding.
+
+## High-Level Design
+
+focus on system architecture and overall framework. outlining the major components and their interactions with one another. designers and architects identify the software modules and their high level functionalities along with data flow, infrastructure and communication with third party services. defines the macro-level structure which is crucial for stack holder to understand.
 
 ## SOLID Principles
 
